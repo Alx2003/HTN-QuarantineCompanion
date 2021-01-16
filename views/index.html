@@ -8,12 +8,37 @@
     <link href="../public/stylesheets/style.css"  rel="stylesheet"  type="text/css" />
 </head>
 
+<SCRIPT LANGUAGE="JAVASCRIPT">
+var messages = new Array();
+messages[0] = "Drink lots of water!"
+messages[1] = "Eat healthy food!"
+messages[2] = "Get lots of sleep!"
+messages[3] = "You can do this!"
+messages[4] = "Don't forget to keep active!"
+
+var message = messages[Math.floor(Math.random()*messages.length)];
+</script>
+
+<div class="banner">
+    <h1><u>Self-Care</u>:</h1>
+    <p>
+        <script type="text/javascript">
+            document.write(message)
+        </script>
+    </p>
+</div>
+
+
 <body>
-    <div>
+    <div class="main">
         <h1>Quarantine Companion</h1>
-        <p>Your <b>friend</b> in quarantine!</p>
+        <p>Your <b><u>friend</u></b> in quarantine!</p>
         <p><a href="food.html"> Food Delivery </a></p>
-    </div>
+    </div> 
+    
+    <script src="darkMode.js">
+	</script>
+
 </body>
 
 </html>

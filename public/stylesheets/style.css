@@ -1,6 +1,8 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: white;
+  color: tomato;
 }
 
 div{
@@ -9,9 +11,34 @@ div{
 
 img{
   width: 100px;
+  border-radius: 20px;
+}
+
+.banner{
+  top: 0;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin-bottom: 125px;
+}
+
+.main{
+  width: 250px;
+  margin: auto;
+  border: 4px solid;
+  border-radius: 16px;
+}
+
+.food{
+  width: 250px;
+  margin: auto;
+  border: 4px solid;
   border-radius: 16px;
 }
 
 a {
   color: #00B7FF;
+}
+
+.dark{
+  background: rgb(71, 71, 71);
+  color: lightgreen;
 }
