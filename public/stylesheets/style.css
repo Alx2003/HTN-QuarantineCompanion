@@ -3,6 +3,15 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
+div{
+  text-align: center;
+}
+
+img{
+  width: 100px;
+  border-radius: 16px;
+}
+
 a {
   color: #00B7FF;
 }
