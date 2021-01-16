@@ -10,6 +10,10 @@ div {
   text-align: center;
 }
 
-a {
+p {
+  font: 20px;
+}
+
+ul {
   color: #00B7FF;
 }
