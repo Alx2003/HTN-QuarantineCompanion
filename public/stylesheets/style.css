@@ -10,7 +10,6 @@ div{
 }
 
 img{
-  width: 100px;
   border-radius: 20px;
 }
 
@@ -29,6 +28,12 @@ img{
 
 a {
   color: #00B7FF;
+}
+
+.logo{
+  position: absolute;
+  top: 25px;
+  left: 50px;
 }
 
 .dark{
