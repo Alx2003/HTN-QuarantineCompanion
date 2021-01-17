@@ -5,7 +5,8 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
     <title>Quarantine Companion - Food Delivery</title>
-    <link href="../public/stylesheets/style.css"  rel="stylesheet"  type="text/css" />
+    <link href="/public/stylesheets/style.css"  rel="stylesheet"  type="text/css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
 </head>
 
 <body>
@@ -16,22 +17,25 @@
             redirected to a food delivery site,<br>
             make sure to select contactless delivery!</p>
         <p>
-            <a href="https://www.ubereats.com/ca"><img src="../images/UberEats.png"/></a>
-            <a href="https://www.doordash.com/en-US"><img src="../images/Doordash.jpg"/></a>
+            <a href="https://www.ubereats.com/ca"><img src="/public/images/UberEats.png"/></a>
+            <a href="https://www.doordash.com/en-US"><img src="/public/images/Doordash.jpg"/></a>
         </p>
         <p>
-            <a href="https://www.skipthedishes.com"><img src="../images/SkipTheDishes.png"/></a>
-            <a href="https://www.grubhub.com"><img src="../images/Grubhub.jpg"/></a>
+            <a href="https://www.skipthedishes.com"><img src="/public/images/SkipTheDishes.png"/></a>
+            <a href="https://www.grubhub.com"><img src="/public/images/Grubhub.jpg"/></a>
         </p>
-        <p><a href="index.html">Go Back</a></p>
+        <p><a href="/">Go Back</a></p>
     </div>
 
     <div>
         <p>Press space to toggle dark mode!</p>
     </div>
 
-    <script src="darkMode.js">
+    <script src="/public/script/darkMode.js">
     </script>
+
+    <button type="button" id="emergency-button">Call Emergency</button>
+    <script src="/public/script/emergencyButton.js"></script>  
     
 </body>
 
