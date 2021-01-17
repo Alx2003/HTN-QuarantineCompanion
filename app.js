@@ -8,6 +8,7 @@ var usersRouter = require("./routes/users");
 var emergencyRouter = require("./routes/emergency");
 var covidRouter = require("./routes/covid");
 var foodRouter = require("./routes/food");
+var entertainmentRouter = require("./routes/entertainment");
 
 var app = express();
 
@@ -27,5 +28,6 @@ app.use("/users", usersRouter);
 app.use("/emergency",emergencyRouter);
 app.use("/food", foodRouter);
 app.use("/covid",covidRouter);
+app.use("/entertainment",entertainmentRouter);
 
 module.exports = app;

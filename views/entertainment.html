@@ -5,12 +5,13 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
     <title>Quarantine Companion - Entertainment</title>
-    <link href="../public/stylesheets/style.css"  rel="stylesheet"  type="text/css" />
+    <link href="/public/stylesheets/style.css"  rel="stylesheet"  type="text/css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
 </head>
 
 <body>
     <div class="logo">
-        <img src="../images/QuarantineCompanion.png" width="250">
+        <img src="public/images/QuarantineCompanion.png" width="250">
     </div>
 
     <div class="main">
@@ -21,27 +22,29 @@
             Click on any of the following<br>
             icons to be redirected!</p>
         <p>
-            <a href="https://www.netflix.com/ca/"><img src="../images/Netflix.jpg" 
+            <a href="https://www.netflix.com/ca/"><img src="/public/images/Netflix.jpg" 
                 width="100"></a>
-            <a href="https://www.crunchyroll.com/"><img src="../images/Crunchyroll.jpg"
+            <a href="https://www.crunchyroll.com/"><img src="/public/images/Crunchyroll.jpg"
                 width="100"></a>
         </p>
         <p>
-            <a href="https://www.youtube.com/"><img src="../images/YouTube.png"
+            <a href="https://www.youtube.com/"><img src="/public/images/YouTube.png"
                 width="100"></a>
-            <a href="https://www.spotify.com/ca-en/"><img src="../images/Spotify.png"
+            <a href="https://www.spotify.com/ca-en/"><img src="/public/images/Spotify.png"
                 width="100"></a>
         </p>
-        <p><a href="index.html">Go Back</a></p>
+        <p><a href="/">Go Back</a></p>
     </div>
 
     <div>
         <p>Press space to toggle dark mode!</p>
     </div>
 
-    <script src="darkMode.js">
+    <script src="/public/script/darkMode.js">
     </script>
     
+    <button type="button" id="emergency-button">Call Emergency</button>
+    <script src="/public/script/emergencyButton.js"></script>  
 </body>
 
 </html>
