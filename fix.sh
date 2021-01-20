@@ -2,10 +2,6 @@
 
 git filter-branch --env-filter '
 
-OLD_EMAIL="email you just saw in .patch"
-CORRECT_NAME=“correct username, you can check it in your terminal git config --global user.name”
-CORRECT_EMAIL=“correct email, you can check it with git config --global user.email”
-
 if [ "$GIT_COMMITTER_EMAIL" = "haoming@caroline.hitronhub.home" ]
 then
     export GIT_COMMITTER_NAME="hewlett-packard-lovecraft"
